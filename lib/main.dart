@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:task_app/decrypt_video.dart';
 import 'package:task_app/screens/regestration.dart';
 
 void main() async {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: RegestrationScreen(),
+      home: VideoDecryptPlayer(),
     );
   }
 }
