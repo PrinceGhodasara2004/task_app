@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:task_app/decrypt_video.dart';
-import 'package:task_app/screens/regestration.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
